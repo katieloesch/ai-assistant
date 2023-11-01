@@ -28,3 +28,8 @@ https://openai.com/product
 > write a function in JavaScript that determines if email address provided is valid or not
 > how to creae functional component in react
 > explain the difference between react and vue
+
+backend deployed on render -> https://render.com/
+https://ai-assistant-qdtj.onrender.com/
+
+frontend deployed on vercel -> https://ai-assistant-puce-five.vercel.app/
