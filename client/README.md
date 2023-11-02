@@ -84,6 +84,10 @@ npm init vite@latest client -- --template vanilla
 
 - UI
   - fonts
+    - "Alegreya Sans" designed by Juan Pablo del Peral & Huerta Tipográfica
+      - https://fonts.google.com/specimen/Alegreya+Sans
+      - https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap
+      - https://www.fontsquirrel.com/fonts/alegreya-sans
   - icons
     - iconify
     - https://icon-sets.iconify.design/
