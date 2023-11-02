@@ -17,20 +17,9 @@
 
 ## <a name="description"></a> 1. Description
 
-a chatGTP AI application using openAI's machine learning model
-communication with a GTP3 model API
-ability to ask the AI for help with JavaScript, React, any other language
-html css JS vite node.js openAI
-give it code to translate to another language
+A chatGTP AI-based web application that uses openAI's machine learning model. This project was built using HTML/CSS/JS, vite, node.js and openAI. The user can communicate with a GTP3 model API and ask the AI for help with JavaScript, React or any other language, for example give it code to translate from one to another language or help debugging. The frontend is based in vanilla JavaScript project using vite and the backend was built with node.js. The application also has a fully responsive layout created with pure CSS.
 
-- AI-based web application
-- communication with a GPT3 model API,
-- ask the AI for help regarding JavaScript, React, or any other programming language, giving it code and translating it to another programming language
-
-- vanilla JavaScript project using vite
-
-- node.js on the server side
-- responsive layout with pure css
+ex:
 
 > write a function in JavaScript that determines if email address provided is valid or not
 > how to creae functional component in react
@@ -160,22 +149,20 @@ npm init vite@latest client -- --template vanilla
 
 - project started on 01/11/2023
 
-### Propsal: ERD
-
-### Proposal: User stories
+### User stories
 
 - As a user I should be able to type in a prompt.
 - As a user I should be able to get a response from the AI assistant that is helpful.
 
 <br>
 
-### Development: day 1
-
-### Development: day 2
-
-<br>
-
 ## 7. <a name="challenges"></a> Challenges
+
+While trying to fetch data from the API I kept running into the error: "Assertion failed: Input argument is not an HTMLInputElement".
+
+This was due to an issue with a browser extension extension I was using. The LastPass password manager extension tries to autofill password fields, and according to chatGTP "sometimes its scripts may cause interference with web pages, especially those that employ dynamic content or JavaScript-based elements".
+
+I solved this by disabling LastPass for this site to prevent it from attempting to autofill on that specific page.
 
 ## 8. <a name="wins"></a> Wins
 
